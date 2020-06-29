@@ -1,0 +1,28 @@
+.page {
+  background-color: #eee;
+  background: linear-gradient(
+    to right,
+    rgb(187, 204, 211) 0%,
+    rgb(90, 90, 165) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.block {
+  &__img {
+    width: 100px;
+    height: 100px;
+    transition: all linear 2s;
+    transform:rotate();
+  }
+}
